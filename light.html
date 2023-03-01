@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Light Switches</title>
+	<link rel="stylesheet" href="light.css">
+	<script type="text/javascript" src="light.js"></script> 
+</head>
+<body>
+
+<h1>Some squares</h1>
+
+<div class="divofsquares">
+	<div class="square" id="sq1"></div>
+	<div class="square" id="sq2"></div>
+	<div class="square" id="sq3"></div>
+	<div class="square" id="sq4"></div>
+	<div class="square" id="sq5"></div>
+	<div class="square" id="sq6"></div>
+	<div class="square" id="sq7"></div>
+	<div class="square" id="sq8"></div>
+	<div class="square" id="sq9"></div>
+	<div class="square" id="sq10"></div>
+</div>
+
+<script>init();</script>
+<br>
+<div id="hidden_stop" style="display: none;">go</div>
+<br>
+<input type="radio" id="forward" name="direction" value="forward" checked="checked" onclick="reimage()">
+<label for="forward">Forward</label><br>
+<input type="radio" id="backward" name="direction" value="backward" onclick="reimage()">
+<label for="backward">Backward</label>
+<br>
+<label>Frequency</label>
+<div class="slidecontainer">
+  <input type="range" min="0" max="5" value="0" class="slider" id="frequency">
+</div>
+<div>
+<br>
+<button type="step" onclick="step()">Step</button>
+<button type="button" onclick="start()">Start</button>
+<button type="stop" onclick="stop()">Stop</button>
+<button type="reset" onclick="reimage()">Reset</button>
+</div>
+
+
+</body>
+</html>
