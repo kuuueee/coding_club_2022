@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Array</title>
+        <link rel="stylesheet" href="array.css">
+        <script type="text/javascript" src="array.js"></script>  
+    </head>
+    <body>
+    <h1>Intro to Arrays</h1>
+    <p>Arrays are a common data structure within the field of computer science.</p>
+    
+    <p>They can be thought of as a horizontal list of items called elements</p>
+    
+    <p>Each of the elements has an index number that coresponds to the element in that order.</p>
+        
+    <h3>This is an array called my_animals that contains 10 elements</h3>
+    <pre>
+    _______________________________________________________________________
+    |      |      |      |      |      |      |      |      |      |      |
+    | cow  | frog | bear |  cat | horse| dog  |camel | fish |beaver| bat  |
+    |      |      |      |      |      |      |      |      |      |      |
+    -----------------------------------------------------------------------
+        0      1      2      3      4      5      6      7     8      9
+    
+    </pre>
+    
+    <h3>In javascript this array will look like this:</h3>
+        
+    <code>var my_animals = ["cow", "frog", "bear", "cat", "horse", "dog", "camel", "fish", "beaver", "bat"];</code>
+    
+    <p>The main reason to use an array is to access elements by their index number.</p>
+        
+    <p>To access the element of the array, you can use the corresponding index number</p>
+        
+    <p>To access our cat, use the index 3.</p>
+        
+    <h3>In javascript this array will look like this:</h3>
+        
+    <code>var cat = my_animals[3];</code>
+    <br>
+    <br>
+        
+    <label for="my_array">Array Index: &nbsp;&nbsp; </label>
+    <input type="number" id="array_index" name="array_index" onchange="change_array()"
+       min="0" max="9">
+    
+    <p>Animal: </p>
+    <div id="indexed_animal"></div>
+    </body>
+</html>
