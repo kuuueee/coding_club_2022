@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Array</title>
+        <link rel="stylesheet" href="loop.css">
+        <script src="loop.js"></script>  
+    </head>
+    <body>
+    <h1>Intro to For Loops</h1>
+    <br>
+    <h3>Wouldn't it be nice to be able to be able to interact with each of the elements one by one?</h3>
+        
+    <p>With for loops we are able to achieve things such as a search, or a print all</p>
+        
+    <h3>In Javascript a for loop will look like this:</h3>
+    <pre>
+    for (var k = 0; k &lt; 9; k++){
+        //output the value of k;
+    } 
+    </pre>
+    
+    <p>In english this for loop says:</p>
+    <ul>
+        <li>var k = 0; &emsp;→ variable named k is equal to zero</li>
+        <li>k &lt; 9;&emsp;&emsp;&emsp;→ while k is less than 9</li>
+        <li>k++ &emsp;&emsp;&emsp;→ add 1 to k at the end of the loop.</li>
+    </ul>
+        
+    <p>What do you think this for loop  will do?</p>
+        
+    
+    <br>
+    <br>
+        
+        
+    <h3>Let's think about our array from last week.</h3>
+    <pre>
+    _______________________________________________________________________
+    |      |      |      |      |      |      |      |      |      |      |
+    | cow  | frog | bear |  cat | horse| dog  |camel | fish |beaver| bat  |
+    |      |      |      |      |      |      |      |      |      |      |
+    -----------------------------------------------------------------------
+        0      1      2      3      4      5      6      7     8      9
+    
+    </pre>
+        
+    <label for="my_array">Search Array for: &nbsp;&nbsp; </label>
+    <input type="text" id="animal_lookup" name="animal_lookup" value="cow">
+    <br>
+        
+    <button type="button" onclick="search_array()">Search</button>
+        
+    <p>Search Position: </p>
+    <div id="indexed_animal"></div>
+    </body>
+</html>
