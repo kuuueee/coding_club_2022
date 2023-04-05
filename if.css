@@ -1,0 +1,64 @@
+ #stoplight {
+   background: black;
+   height: 500px;
+   width: 250px;
+   position: relative;
+   /* 
+    Child elements with absolute positioning will be 
+    positioned relative to this div 
+   */
+ }
+
+ #green {
+   position: absolute;
+   background: grey;
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 35%;
+   left: 80%;
+   margin: -150px 0px 0px -150px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+}
+
+ #yellow {
+   position: absolute;
+   background: grey;
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 65%;
+   left: 80%;
+   margin: -150px 0px 0px -150px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+}
+
+ #red {
+   position: absolute;
+   background: grey;
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 95%;
+   left: 80%;
+   margin: -150px 0px 0px -150px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+}
