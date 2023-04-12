@@ -1,0 +1,44 @@
+.divofsquares {
+	display: flex;
+	flex-direction: row;
+	padding: 0px, 0px, 0px, 0px;
+	height: 40px;
+	width: 260px;
+	background-color: blue;
+}
+
+.divofsquares div {
+	margin: 4px;
+}
+
+
+.square {
+  height: 30px;
+  width: 30px;
+  background-color: #FFFFFF;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+button {
+    margin: 5px;
+}
+
+input{
+    margin: 20px;
+    height: 15px;
+    width: 60px;
+}
+
+.inline {
+	display: flex;
+	flex-direction: row;
+	padding: 0px, 0px, 0px, 0px;
+	height: 40px;
+	width: 230px;
+}
