@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+         <link rel="stylesheet" href="good.css">
+     <script src="good.js"></script>
+        <meta charset="UTF-8" />
+        <title>play now
+        </title>
+    </head>
+    
+    
+    <body> 
+         
+        
+    <div id = "q1">
+        <h1> 1st Question: what 2 + 2</h1>
+        <button onclick='right("go on to the next question"); hide_this("q1"); show_next("q2")'>4</button>
+        <button onclick='wrong("try again")'>7</button>
+        <button onclick='wrong("out of all the anwser you picked fish!?!?")'>fish</button>   
+        <button onclick='bruh("youre giving up that easily?")'>idk</button>   
+    </div>
+    
+        
+    <div hidden="hidden" id = "q2">    
+        <h1>question 2: who is the smartest guy in this world </h1>
+        <button onclick='wrong("this question is not even a math problem!")'>27</button>
+        <button onclick='broooWhat("try again")'>im the smartest guy 8D</button>   
+        <button onclick='bruh("youre giving up that easily?")'>i dont know </button>   
+        <button onclick='right("go on to the next question"); hide_this("q2"); show_next("q3")'>alex</button>
+    </div> 
+    
+      <div hidden="hidden" id = "q3">    
+        <h1>question 3: whos your favourite superhero </h1>
+        <button onclick='right("shouldve picked alex"); hide_this("q3"); show_next("q4")'>batman</button>
+        <button onclick='right("alex wouldve been a great pick"); hide_this("q3"); show_next("q4")'>superman</button>  
+        <button onclick='right("go on to the next question"); hide_this("q3"); show_next("q4")'>alex</button>
+        <button onclick='idk("you know alex is a pretty good superhero")'>dont have one </button>   
+    </div> 
+    
+         <div hidden="hidden" id = "q4">    
+        <h1>question 4: what is THE best video game ever </h1>
+        <button onclick='wrong("naaaahhhhh")'>Fortnite</button>
+        <button onclick='right("go on to the next question"); hide_this("q4"); show_next("q5")'>minecraft</button>
+        <button onclick='broooWhat("thats not a game")'>tiktok</button>   
+        <button onclick='bruh("...")'>i dont have one </button>   
+        <button onclick='bruh("woooooooowwwwww")'>i dont like games </button>   
+    </div> 
+       
+         <div hidden="hidden" id = "q5">    
+        <h1>question 5: how many lines of code this quiz took</h1>
+        <button onclick='right("i dont even know too"); hide_this("q5"); show_next("q6")'>i dont know</button>
+        <button onclick='wrong("naaaahhhhh more")'>27</button>
+        <button onclick='broooWhat("thats not a game")'>129</button>   
+        <button onclick='bruh("please try at least")'>i give up </button>   
+        <button onclick='bruh("ok")'>i feel like the awnser is number 2 </button>   
+    </div> 
+        
+    
+            <div hidden="hidden" id = "q6">    
+        <h1>question 6: how do you feel about this quiz</h1>
+        <button onclick='wrong("naaaahhhhh more")'>27</button>
+        <button onclick='broooWhat("thats not a game")'>this quiz sucks</button>   
+        <button onclick='bruh("please try at least")'>this quiz is bad </button>   
+        <button onclick='bruh("ok")'>i feel like the awnser is number 2 </button>   
+        <button onclick='right("i dont even know too"); hide_this("q6"); show_next("q7")'>i feel great about this quiz</button>
+        
+                
+        //thank you for playing this game 
+        
+        </div> 
+    
+    
+    </body>
+</html>
